@@ -135,7 +135,7 @@ foreach ($cards as $key => $card) {
     elseif ($card['tipo'] == 'cortissima') {
         $cortissime[$key] = $card;
     }
-    elseif ($card['tipo'] == 'cortissima') {
+    elseif ($card['tipo'] == 'lunga') {
         $lunghe[$key] = $card;
     }
 };
@@ -146,22 +146,32 @@ foreach ($cards as $key => $card) {
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <title></title>
     </head>
     <body>
         <header>
             <div id="logo">
                 <img src="{{asset('img/marchio-sito-test.png')}}" alt="logo">
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Product</li>
-                        <li>News</li>
-                    </ul>
-                </nav>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
+            <h2>Le lunghe</h2>
+            <div class="cards">
+                @foreach ($lunghe as $key => $card)
+                    <div class="card">
+                        <h3>{{$card['titolo']}}</h3>
+                        <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    </div>
+                @endforeach
+            </div>
 
         </main>
         <footer></footer>
