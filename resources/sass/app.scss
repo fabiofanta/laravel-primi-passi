@@ -1,5 +1,6 @@
-/*VARIABLES*/
 @import '_variables';
+/*MIXINS*/
+@import '_mixins';
 /*RESET*/
 @import '_reset.scss';
 /*COMMON*/
@@ -7,6 +8,6 @@
 /*HEADER*/
 @import 'partials/_header.scss';
 /*MAIN*/
-@import 'partials/_header.scss';
+@import 'partials/_main.scss';
 /*FOOTER*/
-@import 'partials/_header.scss';
+@import 'partials/_footer.scss';

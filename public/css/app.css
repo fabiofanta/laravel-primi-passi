@@ -1,4 +1,13 @@
-/*VARIABLES*/
+/*MIXINS*/
+
+.card {
+  width: calc(100% / 3);
+  float: left;
+}
+
+.card img {
+  width: 100%;
+}
 
 /*RESET*/
 
@@ -12,6 +21,18 @@
 
 a {
   text-decoration: none;
+}
+
+clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  min-width: 1080px;
+  margin: auto;
 }
 
 /*HEADER*/
@@ -30,29 +51,5 @@ header nav ul li {
 
 /*MAIN*/
 
-header {
-  text-align: center;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline-block;
-}
-
 /*FOOTER*/
-
-header {
-  text-align: center;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline-block;
-}
 
