@@ -1,14 +1,3 @@
-/*MIXINS*/
-
-.card {
-  width: calc(100% / 3);
-  float: left;
-}
-
-.card img {
-  width: 100%;
-}
-
 /*RESET*/
 
 * {
@@ -17,13 +6,34 @@
   box-sizing: border-box;
 }
 
+/*MIXINS*/
+
+.card {
+  width: calc(100% / 3);
+  padding: 5px;
+  float: left;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card-link {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*COMMON*/
 
 a {
   text-decoration: none;
 }
 
-clearfix::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
