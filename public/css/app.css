@@ -17,7 +17,7 @@
 }
 
 .card:hover .card-link {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .card:hover img {
@@ -44,7 +44,7 @@
 }
 
 .card .card-link h3 {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .card .card-link h3 a {
@@ -70,7 +70,7 @@ li {
 
 .container {
   width: 80%;
-  min-width: 1080px;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -116,16 +116,39 @@ footer .container {
 
 footer .container [class^=footer] {
   float: left;
-  width: calc((100% - 30px) / 3);
-  margin: 5px;
+  width: calc((100% - 240px) / 3);
+  margin: 30px;
 }
 
-footer .container .footer-left .footer-logo {
+footer .container .footer-left img {
   width: 100%;
 }
 
 footer .ft-bottom {
   background-image: url("/img/footer-montagne-bottom.jpg");
   height: 150px;
+}
+
+/*MEDIA-QUERY*/
+
+@media all and (max-width: 768px) {
+  .card {
+    width: calc((100% - 25px) / 2);
+  }
+
+  footer .container [class^=footer] {
+    float: none;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .card {
+    float: none;
+    width: 100%;
+  }
+
+  [class^=footer] {
+    float: none;
+  }
 }
 

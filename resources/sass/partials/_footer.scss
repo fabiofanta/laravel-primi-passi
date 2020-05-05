@@ -4,11 +4,11 @@ footer {
 		margin-top: 50px;
 		[class^="footer"] {
 			float: left;
-			width: $card_width;
-			margin: $card_margin;
+			width: calc((100% - 240px) / 3) ;
+			margin: 30px;
 		}
 		.footer-left {
-			.footer-logo{
+			img {
 				width: 100%;
 			}
 		}

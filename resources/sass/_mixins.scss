@@ -6,7 +6,7 @@
 	position: relative;
 	&:hover {
 		.card-link {
-			opacity: 0.8;
+			opacity: 0.6;
 		}
 
 		img {
@@ -30,7 +30,7 @@
 		opacity: 0;
 		transition: 0.2s linear all;
 		h3 {
-			margin: 50px 0;
+			margin: 20px 0;
 			a {
 				color: $secondary_color;
 			}

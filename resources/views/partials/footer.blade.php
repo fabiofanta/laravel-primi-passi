@@ -8,22 +8,20 @@
 		<footer>
 			<div class="container clearfix">
 				<div class="footer-left">
-					<div class="footer-logo">
-						<img src="{{asset('img/marchio-sito-test.png')}}" alt="La molisana">
-						<ul>
-							<li>Ragione sociale: La Molisana S.P.A</li>
-							<li>Sede legale: Contrada Colle delle Api, 100/A</li>
-							<li>86100 - Campobasso (CB)</li>
-							<li>Pec: lamolisana@pec.it</li>
-							<li>Tel: +39 0874 4981</li>
-							<li>Fax: +39 0874 629584</li>
-							<li>info@lamolisana.it</li>
-							<li>commerciale@lamolisana.it</li>
-							<li>export@lamolisana.it</li>
-							<li>numero verde 800818081</li>
-							<li>telefono 3801292455</li>
-						</ul>
-					</div>
+					<img src="{{asset('img/marchio-sito-test.png')}}" alt="La molisana">
+					<ul>
+						<li>Ragione sociale: La Molisana S.P.A</li>
+						<li>Sede legale: Contrada Colle delle Api, 100/A</li>
+						<li>86100 - Campobasso (CB)</li>
+						<li>Pec: lamolisana@pec.it</li>
+						<li>Tel: +39 0874 4981</li>
+						<li>Fax: +39 0874 629584</li>
+						<li>info@lamolisana.it</li>
+						<li>commerciale@lamolisana.it</li>
+						<li>export@lamolisana.it</li>
+						<li>numero verde 800818081</li>
+						<li>telefono 3801292455</li>
+					</ul>
 				</div>
 				<div class="footer-center">
 					<div class="center-top">

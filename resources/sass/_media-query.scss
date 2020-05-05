@@ -1,0 +1,23 @@
+@media all and (max-width:768px) {
+	.card {
+		width: calc((100% - 25px) / 2);
+	}
+	footer {
+		.container {
+			[class^="footer"] {
+				float: none;
+			}
+		}
+	}
+}
+
+@media all and (max-width:576px) {
+	.card {
+		float: none;
+		width: 100%;
+	}
+
+	[class^="footer"] {
+		float: none;
+	}
+}
