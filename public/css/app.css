@@ -93,5 +93,9 @@ header nav ul li:hover {
 
 /*MAIN*/
 
+main {
+  background-image: url("/img/fondo-pag-speciali.jpg");
+}
+
 /*FOOTER*/
 
