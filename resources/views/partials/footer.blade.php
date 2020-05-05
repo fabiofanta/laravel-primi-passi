@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<footer>
-			<div class="container">
+			<div class="container clearfix">
 				<div class="footer-left">
 					<div class="footer-logo">
 						<img src="{{asset('img/marchio-sito-test.png')}}" alt="La molisana">
@@ -25,30 +25,32 @@
 						</ul>
 					</div>
 				</div>
-				<div class="footer-center-top">
-					<h3>Pastificio</h3>
-					<ul>
-						<li>Il Pastificio</li>
-						<li>Grano decortinato a pietra</li>
-						<li>Il Molise c'è</li>
-						<li>Filiera Integrata</li>
-						<li>100 anni di pasta</li>
-						<li>Sartoria della pasta</li>
-						<li>Spaghetto Quadrato</li>
-						<li>Le Persona</li>
-					</ul>
-				</div>
-				<div class="footer-center-bottom">
-					<h3>Prodotti</h3>
-					<ul>
-						<li>Le Classiche</li>
-						<li>Le Integrali</li>
-						<li>Le Speciali</li>
-						<li>Le Biologiche</li>
-						<li>Le Gluten-Free</li>
-						<li>Le Semole</li>
-						<li>Le Extra di Lusso</li>
-					</ul>
+				<div class="footer-center">
+					<div class="center-top">
+						<h3>Pastificio</h3>
+						<ul>
+							<li>Il Pastificio</li>
+							<li>Grano decortinato a pietra</li>
+							<li>Il Molise c'è</li>
+							<li>Filiera Integrata</li>
+							<li>100 anni di pasta</li>
+							<li>Sartoria della pasta</li>
+							<li>Spaghetto Quadrato</li>
+							<li>Le Persona</li>
+						</ul>
+					</div>
+					<div class="center-bottom">
+						<h3>Prodotti</h3>
+						<ul>
+							<li>Le Classiche</li>
+							<li>Le Integrali</li>
+							<li>Le Speciali</li>
+							<li>Le Biologiche</li>
+							<li>Le Gluten-Free</li>
+							<li>Le Semole</li>
+							<li>Le Extra di Lusso</li>
+						</ul>
+					</div>
 				</div>
 				<div class="footer-right">
 					<h3>Collezione da chef</h3>
@@ -59,8 +61,8 @@
 						<li>Quadrate</li>
 					</ul>
 				</div>
-				<div class="footer-bottom">
-				</div>
+			</div>
+			<div class="ft-bottom">
 			</div>
 		</footer>
 

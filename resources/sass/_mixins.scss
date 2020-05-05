@@ -1,6 +1,6 @@
 .card {
-	width: calc((100% - 30px) / 3);
-	margin: 5px;
+	width: $card_width;
+	margin: $card_margin;
 	float: left;
 	overflow: hidden;
 	position: relative;

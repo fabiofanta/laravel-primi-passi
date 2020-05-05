@@ -1,4 +1,15 @@
-.footer-bottom {
-	background-image: url('/img/footer-montagne-bottom.jpg');
-	height: 150px;
+
+footer {
+	.container {
+		margin-top: 50px;
+		[class^="footer"] {
+			float: left;
+			width: $card_width;
+			margin: $card_margin;
+		}
+	}
+	.ft-bottom {
+		background-image: url('/img/footer-montagne-bottom.jpg');
+		height: 150px;
+	}
 }
