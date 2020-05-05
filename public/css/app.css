@@ -101,6 +101,13 @@ main {
   background-image: url("/img/fondo-pag-speciali.jpg");
 }
 
+main h2 {
+  font-size: 20px;
+  color: #244063;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
 /*FOOTER*/
 
 footer .container {
@@ -111,6 +118,10 @@ footer .container [class^=footer] {
   float: left;
   width: calc((100% - 30px) / 3);
   margin: 5px;
+}
+
+footer .container .footer-left .footer-logo {
+  width: 100%;
 }
 
 footer .ft-bottom {

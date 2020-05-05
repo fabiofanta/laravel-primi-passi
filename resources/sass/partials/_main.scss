@@ -1,3 +1,9 @@
 main {
 	background-image: url('/img/fondo-pag-speciali.jpg');
+	h2 {
+		font-size: $primary_font_size;
+		color: $tertiary_color;
+		text-transform: uppercase;
+		padding: 20px 0;
+	}
 }

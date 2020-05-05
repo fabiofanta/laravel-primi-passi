@@ -7,6 +7,11 @@ footer {
 			width: $card_width;
 			margin: $card_margin;
 		}
+		.footer-left {
+			.footer-logo{
+				width: 100%;
+			}
+		}
 	}
 	.ft-bottom {
 		background-image: url('/img/footer-montagne-bottom.jpg');
