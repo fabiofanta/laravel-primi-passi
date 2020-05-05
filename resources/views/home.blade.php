@@ -164,7 +164,7 @@ foreach ($cards as $key => $card) {
         </header>
         <main>
             <div class="cards container">
-                <div class="card-type clearfix">
+                <section class="clearfix">
                     <h2>Le lunghe</h2>
                     @foreach ($lunghe as $key => $card)
                     <div class="card">
@@ -180,8 +180,8 @@ foreach ($cards as $key => $card) {
                         </div>
                     </div>
                     @endforeach
-                </div>
-                <div class="card-type clearfix">
+                </section>
+                <section class="clearfix">
                     <h2>Le corte</h2>
                     @foreach ($corte as $key => $card)
                     <div class="card">
@@ -197,8 +197,8 @@ foreach ($cards as $key => $card) {
                         </div>
                     </div>
                     @endforeach
-                </div>
-                <div class="card-type clearfix">
+                </section>
+                <section class="clearfix">
                     <h2>Le cortissime</h2>
                     @foreach ($cortissime as $key => $card)
                     <div class="card">
@@ -214,7 +214,7 @@ foreach ($cards as $key => $card) {
                         </div>
                     </div>
                     @endforeach
-                </div>
+                </section>
             </div>
         </main>
         <footer></footer>
