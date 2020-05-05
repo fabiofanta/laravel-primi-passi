@@ -6,6 +6,7 @@
 		.container {
 			[class^="footer"] {
 				float: none;
+				width: 100%;
 			}
 		}
 	}
@@ -19,5 +20,6 @@
 
 	[class^="footer"] {
 		float: none;
+		width: 100%;
 	}
 }
