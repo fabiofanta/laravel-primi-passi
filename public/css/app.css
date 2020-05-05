@@ -99,3 +99,8 @@ main {
 
 /*FOOTER*/
 
+.footer-bottom {
+  background-image: url("/img/footer-montagne-bottom.jpg");
+  height: 150px;
+}
+

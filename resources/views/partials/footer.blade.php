@@ -59,6 +59,8 @@
 						<li>Quadrate</li>
 					</ul>
 				</div>
+				<div class="footer-bottom">
+				</div>
 			</div>
 		</footer>
 
