@@ -102,7 +102,7 @@ header nav ul li:hover {
 /*MAIN*/
 
 main {
-  background-image: url("/img/fondo-pag-speciali.jpg");
+  background-image: url(/images/fondo-pag-speciali.jpg?2f95c43d2f5c6ce37bf1838709b316a3);
 }
 
 main h2 {
@@ -130,7 +130,7 @@ footer .container .footer-left img {
 }
 
 footer .ft-bottom {
-  background-image: url("/img/footer-montagne-bottom.jpg");
+  background-image: url(/images/footer-montagne-bottom.jpg?1dcd1a6e532195900c88406fef6f8f12);
   height: 150px;
 }
 

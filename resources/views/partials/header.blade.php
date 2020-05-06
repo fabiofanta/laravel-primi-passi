@@ -7,7 +7,7 @@
 	<body>
 		<header>
             <div id="logo">
-                <img src="{{asset('img/marchio-sito-test.png')}}" alt="logo">
+                <img src="{{asset('images/marchio-sito-test.png')}}" alt="logo">
             </div>
             <nav>
                 <ul>

@@ -8,7 +8,7 @@
 		<footer>
 			<div class="container clearfix">
 				<div class="footer-left">
-					<img src="{{asset('img/marchio-sito-test.png')}}" alt="La molisana">
+					<img src="{{asset('images/marchio-sito-test.png')}}" alt="La molisana">
 					<ul>
 						<li>Ragione sociale: La Molisana S.P.A</li>
 						<li>Sede legale: Contrada Colle delle Api, 100/A</li>
