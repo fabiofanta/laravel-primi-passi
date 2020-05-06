@@ -1,5 +1,5 @@
 
-@extends('layouts.products')
+@extends('layouts.layout')
 @section('title')
     Prodotti
 @endsection
