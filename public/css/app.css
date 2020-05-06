@@ -99,6 +99,10 @@ header nav ul li:hover {
   background-color: #b6dbe4;
 }
 
+header nav ul li.active {
+  background-color: #b6dbe4;
+}
+
 /*MAIN*/
 
 main {

@@ -11,8 +11,8 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="{{route('home')}}">Home</a></li>
-                    <li><a href="{{route('products')}}">Product</a></li>
+                    <li class="{{(url()->current() == route('home')) ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
+                    <li class="{{(url()->current() == route('products')) ? 'active' : ''}}"><a href="{{route('products')}}">Product</a></li>
                     <li><a href="#">News</a></li>
                 </ul>
             </nav>
