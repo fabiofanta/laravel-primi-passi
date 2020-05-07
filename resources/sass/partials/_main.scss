@@ -6,12 +6,8 @@
 		text-transform: uppercase;
 		padding: 20px 0;
 	}
-	&.product {
+	&.profile-container {
 		background-image:none;
 		background-color: $bg_color_product;
-		img {
-			width: 100%;
-		}
-
 	}
 }

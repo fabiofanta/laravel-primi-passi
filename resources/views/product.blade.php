@@ -9,8 +9,8 @@
 @endsection
 @section('main')
 <main>
-    <div class="fullwidth-container product">
-        <div class="container">
+    <div class="fullwidth-container profile-container">
+        <div class="profile container">
             <div class="product-title">
                 <h3>{{$product['titolo']}}</h3>
             </div>
