@@ -124,20 +124,6 @@ $data = '[
 ]';
 
 $cards = json_decode($data,true);
-$corte = [];
-$lunghe = [];
-$cortissime = [];
 
-foreach ($cards as $key => $card) {
-    if ($card['tipo'] == 'corta') {
-        $corte[$key] = $card;
-    }
-    elseif ($card['tipo'] == 'cortissima') {
-        $cortissime[$key] = $card;
-    }
-    elseif ($card['tipo'] == 'lunga') {
-        $lunghe[$key] = $card;
-    }
-};
 
-return ['corte' => $corte,'lunghe' => $lunghe,'cortissime'=>$cortissime];
+return $cards;
