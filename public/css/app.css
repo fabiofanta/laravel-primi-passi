@@ -105,15 +105,24 @@ header nav ul li.active {
 
 /*MAIN*/
 
-main {
+.fullwidth-container {
   background-image: url(/images/fondo-pag-speciali.jpg?2f95c43d2f5c6ce37bf1838709b316a3);
 }
 
-main h2 {
+.fullwidth-container h2 {
   font-size: 20px;
   color: #244063;
   text-transform: uppercase;
   padding: 20px 0;
+}
+
+.fullwidth-container.product {
+  background-image: none;
+  background-color: #bbdbe6;
+}
+
+.fullwidth-container.product img {
+  width: 100%;
 }
 
 /*FOOTER*/

@@ -9,7 +9,7 @@
 @endsection
 @section('main')
 <main>
-    <div class="fullwidth-container">
+    <div class="fullwidth-container product">
         <div class="container">
             <div class="product-title">
                 <h3>{{$product['titolo']}}</h3>
@@ -21,7 +21,7 @@
                 <img src="{{$product['src-p']}}" alt="{{$product['titolo']}}">
             </div>
             <div class="product-description">
-                <p>{{$product['descrizione']}}</p>
+                <p>{{!!$product['descrizione']!!}}</p>
             </div>
         </div>
     </div>
