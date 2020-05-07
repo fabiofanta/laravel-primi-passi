@@ -1,9 +1,12 @@
 @php
-    $products_array = config('products');
-    $product = $products_array[$id];
+$products_array = config('products');
+$product = $products_array[$id];
 @endphp
 
 @extends('layouts.layout')
+@section('script')
+<script src="https://kit.fontawesome.com/931ad4d9a2.js" crossorigin="anonymous"></script>
+@endsection
 @section('title')
         {{$product['titolo']}}
 @endsection
@@ -11,6 +14,7 @@
 <main>
     <div class="fullwidth-container profile-container">
         <div class="profile container">
+            <a href="{{route('product.view', ($id != 0) ? ($id - 1) : (count($products_array)-1))}}"><i class="fas fa-chevron-left"></i></a>
             <div class="product-title">
                 <h3>{{$product['titolo']}}</h3>
             </div>
@@ -23,6 +27,7 @@
             <div class="product-description">
                 <p>{!! $product['descrizione'] !!}</p>
             </div>
+            <a href="{{route('product.view', ($id < (count($products_array)-1)) ? ($id + 1) : 0)}}"><i class="fas fa-chevron-right"></i></a>
         </div>
     </div>
 </main>
