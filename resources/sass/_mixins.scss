@@ -44,6 +44,7 @@
 
 .profile {
 	padding: 50px 0;
+	position: relative;
 	h3 {
 		text-align: center;
 	}
@@ -53,4 +54,15 @@
 	.fas {
 		font-size: 30px;
 	}
+	a {
+		position: absolute;
+		top: 50%;
+		&.left {
+			left: -40px;
+		}
+		&.right {
+			right: -40px;
+		}
+	}
+
 }

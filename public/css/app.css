@@ -57,6 +57,7 @@
 
 .profile {
   padding: 50px 0;
+  position: relative;
 }
 
 .profile h3 {
@@ -69,6 +70,19 @@
 
 .profile .fas {
   font-size: 30px;
+}
+
+.profile a {
+  position: absolute;
+  top: 50%;
+}
+
+.profile a.left {
+  left: -40px;
+}
+
+.profile a.right {
+  right: -40px;
 }
 
 /*COMMON*/

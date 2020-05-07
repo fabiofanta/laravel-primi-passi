@@ -14,7 +14,7 @@ $product = $products_array[$id];
 <main>
     <div class="fullwidth-container profile-container">
         <div class="profile container">
-            <a href="{{route('product.view', ($id != 0) ? ($id - 1) : (count($products_array)-1))}}"><i class="fas fa-chevron-left"></i></a>
+            <a class="left" href="{{route('product.view', ($id != 0) ? ($id - 1) : (count($products_array)-1))}}"><i class="fas fa-chevron-left"></i></a>
             <div class="product-title">
                 <h3>{{$product['titolo']}}</h3>
             </div>
@@ -27,7 +27,7 @@ $product = $products_array[$id];
             <div class="product-description">
                 <p>{!! $product['descrizione'] !!}</p>
             </div>
-            <a href="{{route('product.view', ($id < (count($products_array)-1)) ? ($id + 1) : 0)}}"><i class="fas fa-chevron-right"></i></a>
+            <a class="right" href="{{route('product.view', ($id < (count($products_array)-1)) ? ($id + 1) : 0)}}"><i class="fas fa-chevron-right"></i></a>
         </div>
     </div>
 </main>

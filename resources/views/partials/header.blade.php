@@ -12,7 +12,13 @@
             <nav>
                 <ul>
                     <li class="{{(url()->current() == route('home')) ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
-                    <li class="{{(url()->current() == route('products')) ? 'active' : ''}}"><a href="{{route('products')}}">Product</a></li>
+					@if ((url()->current() == route('products')))
+						<li class="active"><a href="{{route('products')}}">Product</a></li>
+					@elseif ((url()->current() == route('product.view',$id)))
+						<li class="active"><a href="{{route('products')}}">Product</a></li>
+					@else
+						<li class=""><a href="{{route('products')}}">Product</a></li>
+					@endif
                     <li><a href="#">News</a></li>
                 </ul>
             </nav>
