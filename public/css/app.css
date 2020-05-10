@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*RESET*/
 
 * {
@@ -176,6 +178,18 @@ footer .ft-bottom {
 /*MEDIA-QUERY*/
 
 @media all and (max-width: 768px) {
+  header nav:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    cursor: pointer;
+    content: "\F0C9";
+  }
+
+  header nav ul {
+    display: none;
+  }
+
   .card {
     width: calc((100% - 25px) / 2);
   }

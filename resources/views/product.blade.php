@@ -4,9 +4,6 @@ $product = $products_array[$id];
 @endphp
 
 @extends('layouts.layout')
-@section('script')
-<script src="https://kit.fontawesome.com/931ad4d9a2.js" crossorigin="anonymous"></script>
-@endsection
 @section('title')
         {{$product['titolo']}}
 @endsection

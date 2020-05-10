@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="ltr">
 	<head>
 		<meta charset="utf-8">
+		<script src="https://kit.fontawesome.com/931ad4d9a2.js" crossorigin="anonymous"></script>
 		<title></title>
 	</head>
 	<body>
