@@ -21,9 +21,7 @@ Route::get('/index', function () {
     return view('index');
 }) ->name('home');
 
-Route::get('/products', function () {
-    return view('products');
-}) ->name('products');
+Route::get('/products', 'ProductController@index') ->name('products');
 
 Route::get('/products/{id}', function ($id) {
     return view('product',compact('id'));
